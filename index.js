@@ -1,5 +1,3 @@
-// instagram clone project in ejs
-
 const express= require("express");
 const app=express();
 const port=8080;
