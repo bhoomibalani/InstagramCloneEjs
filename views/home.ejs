@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTAGRAM</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <h1>INSTAGRAM POSTS</h1>
+    <% for(post of posts){ %>
+
+        <h3 class="user">@<%=post.username%></h3>
+        <img class="postImg" src="<%= post.imgUrl%>" alt="post" >
+        <h4 class="caption"><%= post.caption %></h4>
+        <br>
+        
+   <% } %>
+   <script src="style.css"></script>
+</body>
+</html>
